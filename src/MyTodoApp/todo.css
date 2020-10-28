@@ -1,0 +1,15 @@
+.container{
+height: 75%;
+width: 50%;
+background-color: greenyellow;
+border:5xp solid double;
+padding: 10px;
+margin:10px;
+position: relative;
+left:25%;
+justify-content: center;
+top:25%;
+}
+.all{
+    background-color: rgb(137, 223, 9);
+}

@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    padding: 10px;
+  }
+  .wrapper {
+    min-height: 100vh;
+    display: flex;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:/Users/sandh/Desktop/New folder (2)/ProjectOwn/project-10/src/todoApp/todoimg.jpg');
+    background-size: 100% 100%;
+  }
+  .input {
+    margin-right: 10px;
+  }
+  .frame {
+    width: 600px;
+    max-width: 400px;
+  }
+  .header {
+    display: inline;
+    text-align: center;
+  }
+  .list-wrapper {
+    max-height: 500px;
+    overflow-y: auto;
+  }
