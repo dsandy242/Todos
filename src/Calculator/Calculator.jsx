@@ -44,7 +44,6 @@ class Calculator extends Component {
                 dummy=parseInt(num)/parseInt(num2);
                 break;
         }
-
         this.setState({ dummy });
     }
 
