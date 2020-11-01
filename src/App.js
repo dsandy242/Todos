@@ -19,13 +19,20 @@ import TodoApp from './todoApp/todoApp'
 //export default App;
 
 import MyTodoApp from './MyTodoApp/todoMain';
+import LoginPage from './LoginPage/loginMain';
+import Main from './passwordGenerator/components/Main';
+import Calculator from './Calculator/Calculator';
+// import './LoginPage/login.css';
 class App extends Component{
   render(){
-    return <div> 
-      {/* <TodoApp></TodoApp> */}
-      {/* Success Todos */}
+    return <>
+      {/* <TodoApp></TodoApp> */}      {/* Success Todos */}
       {/* <MyTodoApp></MyTodoApp> */}
-    </div>
+      {/* <LoginPage></LoginPage> */}      {/* Success Login page */}
+      {/* <Main></Main>           success password generator */}
+      <Calculator></Calculator>
+
+    </>
   }
 }
 export default App;
