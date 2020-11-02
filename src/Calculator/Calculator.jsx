@@ -41,23 +41,22 @@ class Calculator extends Component {
                 dummy = parseInt(num) * parseInt(num2);
                 break;
             case "/":
-                dummy=parseInt(num)/parseInt(num2);
+                dummy = parseInt(num) / parseInt(num2);
                 break;
         }
         this.setState({ dummy });
     }
 
     handleBS = () => {
-        let dummy = this.state.dummy;
-        console.log(dummy.toString().length);
-        dummy = dummy.slice(0, dummy.toString().length - 1);
-        this.setState({ dummy });
-    }
-    handleClear=()=>{
         debugger
-        let dummy = this.state.dummy;
-        console.log(dummy.toString().length);
-        dummy = dummy.slice( dummy.toString().length ,0);
+        let temp = this.state.dummy;
+        temp = temp.toString();
+        console.log(typeof (temp));
+        let dummy2 = temp.slice(0, ((temp.toString().length) - 1));
+        this.setState({ dummy: dummy2 });
+    }
+    handleClear = () => {
+        let dummy = "";
         this.setState({ dummy });
     }
     render() {
@@ -89,7 +88,7 @@ class Calculator extends Component {
                     <div ><button value="-" onClick={this.handleNum2}> - </button></div>
                     <div ><button value="/" onClick={this.handleNum2}> / </button></div>
                     <div ><button onClick={this.handleOperation}>=</button></div>
-                    
+
                 </div>
                 <div><button onClick={this.handleClear}>C</button></div>
             </div>
