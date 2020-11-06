@@ -22,6 +22,9 @@ import MyTodoApp from './MyTodoApp/todoMain';
 import LoginPage from './LoginPage/loginMain';
 import Main from './passwordGenerator/components/Main';
 import Calculator from './Calculator/Calculator';
+import NewsSearch from './NewsSearch/NewSearchComponents/NewsSearch';
+import NewSearchRouter from './NewsSearch/NewSearchRouter';
+import CovidCases from './CovidCases/CovidMain';
 // import './LoginPage/login.css';
 class App extends Component{
   render(){
@@ -30,7 +33,10 @@ class App extends Component{
       {/* <MyTodoApp></MyTodoApp> */}
       {/* <LoginPage></LoginPage> */}      {/* Success Login page */}
       {/* <Main></Main>           success password generator */}
-      <Calculator></Calculator>
+      {/* <Calculator></Calculator> */}
+      {/* <NewsSearch></NewsSearch> */}
+      <NewSearchRouter></NewSearchRouter>
+      {/* <CovidCases></CovidCases> */}
 
     </>
   }

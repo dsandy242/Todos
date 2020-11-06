@@ -1,0 +1,33 @@
+.newsSearch{
+    background-color: darkorange;
+    height:50px;
+    border: rgb(255, 217, 0);
+    padding: 20px;
+    width :85%;
+
+}
+.newsSearch>input{
+    height: 40px;
+    width:80%;
+   /* margin-right: 30px; */
+   margin-left: 50px;
+}
+.sItems{
+    /* background-color: darksalmon; */
+    margin: auto;
+    padding:20px;
+    border:20px;
+}
+.sItems:hover {
+    border: rgb(248, 41, 41) 2px;
+}
+.ulist{
+    background-color: darksalmon;
+    border:red 2px;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+}
+.ulist:hover{
+    background-color: rgb(240, 82, 82);
+}
