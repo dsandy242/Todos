@@ -22,9 +22,13 @@ import MyTodoApp from './MyTodoApp/todoMain';
 import LoginPage from './LoginPage/loginMain';
 import Main from './passwordGenerator/components/Main';
 import Calculator from './Calculator/Calculator';
-import NewsSearch from './NewsSearch/NewSearchComponents/NewsSearch';
+import NewsSearch from './NewsSearch/NewSearchComponents/Main';
 import NewSearchRouter from './NewsSearch/NewSearchRouter';
 import CovidCases from './CovidCases/CovidMain';
+import NewsAPI from './NewsAPI/Main';
+import FunComponent from './hooks/FunComponent';
+import QueryParams from './QueryParams/QueryParams';
+import UseEffectHook from './hooks/useEffectHook';
 // import './LoginPage/login.css';
 class App extends Component{
   render(){
@@ -35,8 +39,14 @@ class App extends Component{
       {/* <Main></Main>           success password generator */}
       {/* <Calculator></Calculator> */}
       {/* <NewsSearch></NewsSearch> */}
-      <NewSearchRouter></NewSearchRouter>
+      {/* <NewSearchRouter></NewSearchRouter> */}
+      {/* <NewsAPI></NewsAPI> */}
       {/* <CovidCases></CovidCases> */}
+      {/* <FunComponent></FunComponent>
+      <UseEffectHook></UseEffectHook> */}
+      {/* <QueryParams></QueryParams> */}
+     
+
 
     </>
   }

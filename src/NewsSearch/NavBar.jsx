@@ -1,5 +1,5 @@
 import React from 'react';
-import NewSearch from './NewSearchComponents/NewsSearch';
+import NewSearch from './NewSearchComponents/Main';
 import NewSearchRouter from './NewSearchRouter';
 import PoliticalNews from './NewSearchComponents/PoliticalNews';
 import {Link} from 'react-router-dom';

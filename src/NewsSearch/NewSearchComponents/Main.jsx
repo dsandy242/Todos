@@ -40,6 +40,8 @@ class NewsSearch extends Component {
             return <Redirect push to="/SpiderMan" />;}
         else if (this.state.redirect==="MovieNews") {
         return <Redirect push to="/MovieNews" />;}
+        else if (this.state.redirect==="ElectionResults") {
+            return <Redirect push to="/ElectionResults" />;}
         
         return <div>
             <h1>SEARCH FOR MORE NEWS</h1>
